@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title> What's your favorite Spielberg film?</title>
+  </head>
+  <body>
+
+<div class="container" id="preguntas"> <!--container DIV-->
+<div class="row"> <!--row DIV-->
+  <section class="col-md-8"> <!--column info  ***MIGHT CHANGE***-->
+
+  <form> <!--form BEGINS here-->
+  <div class="container">
+    <h1> How well do you know Steven Spielberg?</h1>
+    <label>Source: <a href=hhttps://en.wikipedia.org/wiki/Steven_Spielberg> Steven Spielberg Wikipedia Page </a> </label>
+
+    <label> Steven Allan Spielberg is considered one the greatest American filmmakers of all time. He's a pioneer of the 'New Hollywood' era, and his films have become worldwide phenomenons that have grossed millions of dollars. Let's test how well you know this original 'Goonie'?</label>
+
+<!--pregunta 1 -->
+      <div class="form-group">
+          <label class="form-control-label" for="state">1 - In what Midwestern state was Steven Allan Spielberg born?</label>
+            <input type="text" class="form-control form-control-md" name="state" id="state">
+        </div>
+
+<!--pregunta 2 -->
+      <div class="form-group">
+        <label class="form-control-label" for="edad">2 - At what age did Spielberg make his very first movie (insert a numerical value)?</label>
+        <input type="text" class="form-control form-control-md" name="edad" id="edad">
+      </div>
+
+<!--pregunta 3 -->
+
+    <div class="form-group">
+      <label for="movieplot">3 - What was the main plot of Spielberg's iconic "Raiders of the Lost Ark" film? <i> (Hint: The film's protagonist is an archeologist.) </i></label>
+        <textarea class="form-control" name="movieplot" id="movieplot" rows="3"></textarea>
+    </div>
+
+<!--pregunta 4 -->
+    <div class="form-group">
+        <label>4 - What was the film that is considered to have put Spielberg on the map? </label>
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="filmName" value="StarWars">Star Wars
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="filmName" value="Jaws">Jaws
+            </label>
+          </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="filmName" value="Close Encounters of the Third Kind">Close Encounters of the Third Kind
+              </label>
+          </div>
+          <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="filmName" value="The Color Purple">The Color Purple
+              </label>
+          </div>
+          <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="filmName" value="Indiana Jones Raiders of the Lost Ark">Indiana Jones Raiders of the Lost Ark
+              </label>
+          </div>
+          <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="filmName" value="E.T.">E.T.
+              </label>
+           </div>
+    </div>
+
+<!--pregunta 5 -->
+<!--dropdown menu question below-->
+    <div class="form-group">
+          <label for="friendNames" class="form-control-label">5 - What is the name of Spielberg's friend that has collaborated with him on multiple films?</label>
+          <select class="form-control" name="friendNames" id="friendNames">
+              <option> Choose an individual </option>
+              <option value="Kathleen Kennedy"> Kathleen Kennedy </option>
+              <option value="George Zimmerman"> George Zimmerman </option>
+              <option value="James Cameron"> James Cameron </option>
+              <option value="Ridley Scott"> Ridley Scott </option>
+              <option value="Brian De Palma"> Brian De Palma</option>
+              <option value="Brian De Palma"> George Lucas</option>
+          </select>
+      </div>
+
+<!--pregunta 6 -->
+<!--checkbox question below-->
+      <div class="form-group">
+          <label>6 - Which of the following are Spielberg's films?</label>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="movieName" value="Amistad">Amistad
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="movieName" value="The Adventures of TinTin">The Adventures of TinTin
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="movieName" value="Lincoln">Lincoln
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="movieName" value="Hook">Hook
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="movieName" value="Alien">Alien
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="movieName" value="The Graduate">The Graduate
+              </label>
+            </div>
+      </div>
+
+
+<!--buttons-->
+      <div class="form-group">
+          <button class="btn btn-primary btn-md" type="submit" value="submit"> Submit Quiz </button>
+          <button class="btn btn-secondary btn-md" type="reset" value="reset"> Begin Again </button>
+        </div>
+  </div>
+  </form> <!--form ENDS here-->
+
+  </section> <!--column info-->
+</div> <!--row DIV-->
+</div> <!--container DIV-->
+  <!--DO NOT DELETE BELOW THIS COMMENT. BODY & HTML MUST BE PRESENT-->
+
+</body>
+</html>
